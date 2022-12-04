@@ -52,7 +52,7 @@ public class GenerateGradeReport {
 			buffer.append("|");
 			buffer.append(student.getMajorSubject().getSubjectName() + "\t"); // 학생 필수과목 
 			buffer.append("|");
-			getScoreGrade(student, subject.getSubjectId());
+//			getScoreGrade(student, subject.getSubjectId());
 			
 			// 학생별 수강과목의 학점
 			getScoreGrade(student, subject.getSubjectId());
